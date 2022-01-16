@@ -1,0 +1,49 @@
+const questions = [
+  {
+    question: 'Which year did WW2 start?',
+    answers: [
+      { text: '1939', correct: true },
+      { text: '1945', correct: false },
+      { text: '1940', correct: false },
+      { text: '1942', correct: false },
+    ]
+  },
+  {
+    question: 'Which country suffered the most casualties?',
+    answers: [
+      { text: 'Italy', correct: false },
+      { text: 'Poland', correct: false},
+      { text: 'Russia(USSR)', correct: true },
+      { text: 'Japan', correct: false }
+    ]
+  },
+  {
+    question: 'What was the most used infantry weapon in WW2?',
+    answers: [
+      { text: 'Sturmgewehr 44', correct: false },
+      { text: 'M1 Garand', correct: true },
+      { text: 'Walther p38', correct: false },
+      { text: 'Colt 1911', correct: false }
+    ]
+  },
+  {
+    question: 'Which country did not participate in WW2?',
+    answers: [
+      { text: 'France', correct: false },
+      { text: 'Sweden', correct: true },
+      { text: 'Hungary', correct: false },
+      { text: 'Germany', correct: false },
+      
+    ]
+  },
+  {
+    question: 'Which year did WW2 end?',
+    answers: [
+      { text: '1944', correct: false },
+      { text: '1940', correct: false },
+      { text: '1946', correct: false },
+      { text: '1945', correct: true },
+    ]
+  }
+
+]
